@@ -1,0 +1,23 @@
+{
+    "macros": [
+        "MBEDTLS_SHA1_C=1",
+        "MQTTCLIENT_QOS0",
+        "MBEDTLS_USER_CONFIG_FILE=\"mbedtls_azure_config.h\""
+    ],
+    "target_overrides": {
+        "*": {
+            "rtos.main-thread-stack-size": 5120,
+            "nsapi.default-wifi-security": "WPA_WPA2",
+            "nsapi.default-wifi-ssid": "\"Embest_WiFi\"",
+            "nsapi.default-wifi-password": "\"Emb-666@\"",
+            "mbed-trace.enable": 1,
+            "mbed-trace.max-level": "TRACE_LEVEL_DEBUG",
+            "mbed-mqtt.max-connections": "5",
+            "mbed-mqtt.max-packet-size": "1024"
+        },
+        "CY8CKIT_062_WIFI_BT": {
+            "platform.stdio-baud-rate": 115200,
+            "platform.stdio-convert-newlines": true
+        }
+    }
+}

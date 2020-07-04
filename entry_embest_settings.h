@@ -1,0 +1,16 @@
+#ifndef __ENTRY_EMBEST_SETTINGS_H__
+#define __ENTRY_EMBEST_SETTINGS_H__
+
+#define ENTRY_EMBEST_CPID "617449FD62B649E7AD1050DB4E95096E"
+#define ENTRY_EMBEST_COMPANY_NAME "Embest Tech"
+
+#define ENTRY_EMBEST_MQTT_SERVER_HOST_NAME "poc-iotconnect-iothub-eu.azure-devices.net"
+#define ENTRY_EMBEST_MQTT_SERVER_PORT 8883
+
+#define ENTRY_PSOC_CPID ""
+#define ENTRY_PSOC_COMPANY_NAME "Azure IoT Hub - psoc"
+
+#define ENTRY_PSOC_MQTT_SERVER_HOST_NAME "psoc.azure-devices.net"
+#define ENTRY_PSOC_MQTT_SERVER_PORT 8883
+
+#endif
